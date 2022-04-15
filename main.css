@@ -1,0 +1,525 @@
+/* Commissioner font, Source Sans Pro and Fira Code font, please do not remove. */
+@import url(https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap);
+
+:root {
+  --font-primary: Source Sans Pro;
+  --font-display: Commissioner;
+  --font-headline: Commissioner;
+  --font-code: Fira Code;
+}
+
+* {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #6200ff;
+    --text-muted: #5d4c83;
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #6e37b6;
+    --interactive-active: rgb(111, 0, 255);
+    --interactive-muted: #220038;
+    --background-primary: #15131a;
+    --background-secondary: #121016;
+    --background-secondary-alt: #0e0c11;
+    --background-tertiary: #08070a;
+    --background-accent: #24212c;
+    --background-floating: #030203;
+    --background-mobile-primary: #08070a;
+    --background-mobile-secondary: #08070a;
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #15131a;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: rgb(89, 0, 255);
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --channels-default: #5500ff;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
+
+
+.message-2CShn3 .messageContent-2t3eCI .timestamp-p1Df1m {
+    color: transparent;
+}
+.message-2CShn3:hover .messageContent-2t3eCI .timestamp-p1Df1m {
+    color: var(--text-muted);
+}
+
+button[aria-label="Open GIF picker"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Open sticker picker"] {
+    display: none;
+    color: transparent;
+}
+
+/* Begin Localized Stuff */
+
+button[aria-label="Open GIF picker"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Open sticker picker"] {
+    display: none;
+    color: transparent;
+}
+
+/* Dansk */
+
+button[aria-label="Åbn sticker-vælgeren"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Åbn GIF-vælger"] {
+    display: none;
+    color: transparent;
+}
+
+/* Deutsch */
+
+button[aria-label="Stickerauswahl öffnen"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF-Auswahl öffnen"] {
+    display: none;
+    color: transparent;
+}
+
+/* Espanol */
+
+button[aria-label="Abrir selector de pegatinas"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Abrir selector de GIFs"] {
+    display: none;
+    color: transparent;
+}
+
+/* Francais */
+
+button[aria-label="Ouvrir le sélecteur d'autocollant"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Ouvrir l'onglet des GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Hrvatski */
+
+button[aria-label="Otvori picker za naljepnice"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Otvori GIF picker"] {
+    display: none;
+    color: transparent;
+}
+
+/* Italiano */
+
+button[aria-label="Apri selettore di adesivi"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Apri selettore di GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Lietuviskai */
+
+button[aria-label="Atidaryti lipdukų paieškos priemonę"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Atidaryti GIF paieškos priemonę"] {
+    display: none;
+    color: transparent;
+}
+
+/* Magyar */
+
+button[aria-label="Matricaválogató megnyitása"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF válogató megnyitása"] {
+    display: none;
+    color: transparent;
+}
+
+/* Nederlands */
+
+button[aria-label="Stickerkiezer openen"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF-kiezer openen"] {
+    display: none;
+    color: transparent;
+}
+
+/* Norsk */
+
+button[aria-label="Åpne klistremerkevelger"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Åpne GIF-velger"] {
+    display: none;
+    color: transparent;
+}
+
+/* Polski */
+
+button[aria-label="Otwórz wybór naklejek"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Otwórz wybieranie GIF-ów"] {
+    display: none;
+    color: transparent;
+}
+
+/* Portuges do Brasil */
+
+button[aria-label="Abrir selecionador de figurinhas"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Abrir o selecionador de GIFs"] {
+    display: none;
+    color: transparent;
+}
+
+/* Romana */
+
+button[aria-label="Deschide selectorul de stickere"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Deschide selectorul de GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Suomi */
+
+button[aria-label="Avaa tarravalitsin"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Avaa GIF-valitsin"] {
+    display: none;
+    color: transparent;
+}
+
+/* Svenska */
+
+button[aria-label="Öppna dekalväljare"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Öppna GIF-väljare"] {
+    display: none;
+    color: transparent;
+}
+
+/* Tieng Viet */
+
+button[aria-label="Mở trình chọn sticker"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Mở trình chọn ảnh GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Turkce */
+
+button[aria-label="Çıkartma seçiciyi aç"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF seçiciyi aç"] {
+    display: none;
+    color: transparent;
+}
+
+/* Cestina */
+
+button[aria-label="Otevřít výběr samolepek"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Otevřít okno s GIFy"] {
+    display: none;
+    color: transparent;
+}
+
+/* Eyynvilka */
+
+button[aria-label="Άνοιγμα επιλογέα αυτοκόλλητων"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Άνοιγμα επιλογέα GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* български */
+
+button[aria-label="Отвори избиране на стикери"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Отвори избиране на GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* PYCCknn */
+
+button[aria-label="Открыть меню выбора стикеров"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Открыть меню GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Ykpaihcbka */
+
+button[aria-label="Відкрити програму вибору стікерів"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="Відкрити програму вибору GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="स्टीकर पिकर खोलें"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF पिकर खोलें"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="เปิดตัวเลือกสติกเกอร์"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="เปิดตัวเลือก GIF"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="打开贴纸选取器"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="打开 GIF 选取器"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="スタンプピッカーを開く"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIFピッカーを開く"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="開啟貼圖選取器"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="開啟 GIF 選取器"] {
+    display: none;
+    color: transparent;
+}
+
+/* Another Language */
+
+button[aria-label="스티커 선택기 열기"] {
+    display: none;
+    color: transparent;
+}
+button[aria-label="GIF 선택기 열기"] {
+    display: none;
+    color: transparent;
+}
+
+/* End Localized Stuff */
+
+
+.sprite-2lxwfc {
+    background-image: url("https://blueb442.github.io/purpura/assets/allinone-sprite.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+
+.scrollableContainer-15eg7h {
+    background-color: var(--background-accent);
+}
+
+.scrollableContainer-15eg7h {
+    border-radius: 12px;
+}
+
+.mention {
+    border-radius: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+button, .item-1OdjEX, .item-3XjbnG, .content-1gYQeQ {
+    border-radius: 8px!important;
+}
+
+:root {
+    --is: #a890b30e;
+}
+
+.modeSelected-3DmyhH .content-1gYQeQ, .selected-g-kMVV .item-3XjbnG {
+    background-color: var(--is)!important;
+}
+
+.menu-1QACrS {
+    border-radius: 10px;
+}
+
+.panels-3wFtMD {
+    padding: 3px;
+    background-color: var(--background-secondary);
+}
+
+.sidebar-1tnWFu {
+    margin-top: 10px;
+    margin-right: 5px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+.chat-2ZfjoI {
+    margin-top: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#BDFDB-card {
+    border-radius: 8px;
+}
+
+.selected-g-kMVV.item-3XjbnG {
+    background-color: var(--is)!important;
+}
+
+.accountProfileCard-lbN7n- {
+    border-radius: 15px;
+}
+
+.notice-1Qe0b_{
+    border-radius: 12px;
+}
+
+.radioBar-3w9XY-, .item-2idW98 {
+    border-radius: 12px;
+}
+
+.codeRedemptionRedirect-2hYMSQ, .noItemsCard-2V85P5 {
+    border-radius: 12px;
+    background-color: var(--background-secondary)!important;
+    border: none;
+}
+
+input, .select-1Ia3hD, .container-3jbRo5 {
+    border-radius: 8px!important;
+}
+
+.card-16VQ8C {
+    border-radius: 12px;
+    border: none;
+}
+
+.container-3NTP7o {
+    border-radius: 5px!important;
+}
+
+.formNotice-2nS8ey {
+    background-color: var(--background-secondary);
+}
+
+.activeGame-1OdxzI, .bd-addon-card {
+    border-radius: 8px!important;
+}
+
+.grabber-2GQyvM {
+    border-radius: 15px;
+    width: 13px;
+}
